@@ -12,20 +12,20 @@ mounted volumes.
 You can run on any system with internet access directly, even if the
 disks are remounted read-only:
 
-`curl https://raw.github.com/BashtonLtd/whatswrong/master/whatswrong |
+`curl https://raw.github.com/ecchanger/whatswrong/master/whatswrong |
 bash`
 
 Alternatively, as long as you have SSH access to the remote system you
 can download via your local machine, and then send and execute over SSH 
 as follows:
 
-`curl https://raw.github.com/BashtonLtd/whatswrong/master/whatswrong |
+`curl https://raw.github.com/ecchanger/whatswrong/master/whatswrong |
 ssh $remote_server bash`
 
 You could add a commandline shortcut to this by appending the following
 to your `.bashrc`:
 
-`ww() { curl https://raw.github.com/BashtonLtd/whatswrong/master/whatswrong |
+`ww() { curl https://raw.github.com/ecchanger/whatswrong/master/whatswrong |
 ssh $1 bash; }`
 
 You can then run the script on any machine you have SSH access to with
